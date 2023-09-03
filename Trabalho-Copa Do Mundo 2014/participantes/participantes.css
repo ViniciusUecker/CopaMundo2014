@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Suas outras propriedades CSS aqui */
+    background-image: url('../img/1693664372270.png'), url('../img/1693664269179.png'), url('../img/1693664931341.png');
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed, fixed;
+    /* Opcional: fixa os planos de fundo na tela */
+    background-position: left top, right top, center;
+    /* Define a posição das imagens */
+    background-size: 58%;
+    /* Defina o tamanho desejado aqui */
+    font-family: 'Bevan', serif;
+    padding-top: 2%;
+}
+
+.center-image {
+    text-align: center;
+    margin-top: -2%;
+    margin-left:8%;
+    margin-bottom:2%;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+margin-right:5%;
+}
+
+th,
+td {
+    padding: 18px;
+    border: 1px solid #ddd;
+    text-align: left;
+    border: 1px solid green;
+
+}
+
+td {
+    border: 2px solid #ffbf00;
+
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 2px solid;
+
+}
+
+.time {
+    text-align: center;
+    color: green;
+    margin-left: 8%;
+    margin-top:-6%;
+    margin-bottom:5%;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo img {
+    width: 25%;
+    margin-left: 10%;
+}
+
+.cabeca th {
+    background-color: yellow;
+
+}
+
+span {
+    color: #ffbf00;
+}
+
+table + h1 {
+    color: #ffbf00;
+    text-align: center;
+    margin-top:5%;
+}
+.menu{
+    margin-top: 3%;    
+    }
+    a{
+        font-family: 'Bevan', serif;    
+        font-size: 20px;
+       color: #4169E1;
+        text-decoration: none;/*tirar o sublinhado do link*/
+    padding-right: 30px; 
+    }
+    a:hover{
+    color: red;
+    transition: 0.5s all;/*esse efeito deixa a transição do hover mais lenta*/
+    
+    }
+    a:active{
+        color: #8de000;
+        transition: 0.0s all;/*esse efeito deixa a transição do hover mais lenta*/
+        
+        }
+        
