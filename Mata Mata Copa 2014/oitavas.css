@@ -105,3 +105,10 @@ a:active {
     margin-left: 4%;
 }
 
+.oitavas a {
+    font-size: 18px;
+    color:#8de000;
+}
+.oitavas a:hover{
+    color:red;
+}
