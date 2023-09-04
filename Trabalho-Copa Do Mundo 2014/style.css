@@ -18,10 +18,10 @@ body {
     padding-left: 0; /* Deixe o padding-left como 0 para evitar o deslocamento */
     padding-right: 0; /* Remova o padding-right para evitar o deslocamento */
     margin-left: 0; /* Deixe a margem esquerda como 0 para evitar o deslocamento */
-    max-height: 40vh;
+    max-height: 35vh;
     overflow-y: scroll;
     margin-right: 27%; /* Ajuste este valor para mover o conteúdo para a direita */
-    margin-top:-2%;
+    margin-top:1%;
 
 }
 #espaco{
@@ -35,7 +35,7 @@ body {
         figure img {
             max-width: 100%;
             height: auto;
-                transition: transform 0.2s ease-in-out;
+            transition: transform 0.2s ease-in-out;
 
         }
 
@@ -60,7 +60,7 @@ body {
         }
         .menu{
 margin-left: 12%;
-margin-top: 3%;
+margin-top: 3.5%;
 
 }
 a{
@@ -114,7 +114,10 @@ h1{
     
 }
 #logo1{
-    width:20%;
-    margin-top: -8%;
+    width:13%;
+    margin-top: -6%;
     margin-left:40%;
+}
+.menu a{
+    padding-right:150px;
 }

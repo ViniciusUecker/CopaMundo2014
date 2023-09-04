@@ -76,7 +76,9 @@ table+h1 {
 .menu {
     margin-top: 3%;
 }
-
+.menu a{
+    padding-right:150px;
+}
 a {
     font-family: 'Bevan', serif;
     font-size: 20px;

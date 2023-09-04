@@ -16,6 +16,7 @@ body {
     /* Defina o tamanho desejado aqui */
     font-family: 'Bevan', serif;
     padding-top: 2%;
+    padding-bottom:3%;
 }
 
 .center-image {
@@ -30,6 +31,7 @@ table {
     margin: 0 auto;
     border-collapse: collapse;
 margin-right:5%;
+
 }
 
 th,
@@ -42,19 +44,24 @@ td {
 }
 
 td {
-    border: 2px solid #ffbf00;
+    border: 2px solid black;
 
 }
 
 th {
-    background-color: #f2f2f2;
     border: 2px solid;
-
+    font-size: 15px;
+}
+tr:nth-child(even) {
+    background-color: #ffff7a;
+}
+tr:hover {
+    background-color: #9afd4f;
 }
 
 .time {
     text-align: center;
-    color: green;
+    color: #31aa56;
     margin-left: 8%;
     margin-top:-6%;
     margin-bottom:5%;
@@ -71,7 +78,7 @@ th {
 }
 
 .cabeca th {
-    background-color: yellow;
+    background-color: #ffff00;
 
 }
 
@@ -86,6 +93,9 @@ table + h1 {
 }
 .menu{
     margin-top: 3%;    
+    }
+    .menu a{
+        padding-right:150px;
     }
     a{
         font-family: 'Bevan', serif;    
