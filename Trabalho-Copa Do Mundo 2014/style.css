@@ -59,15 +59,17 @@ body {
             color: inherit;
         }
         .menu{
-margin-left: 12%;
+margin-left: 80px;
 margin-top: 3.5%;
 
+}
+.menu a{
+    padding-right:130px;
 }
 a{
     font-size: 20px;
    color: #4169E1;
     text-decoration: none;/*tirar o sublinhado do link*/
-padding-right: 5%; 
 }
 a:hover{
 color: red;
@@ -117,7 +119,4 @@ h1{
     width:13%;
     margin-top: -6%;
     margin-left:40%;
-}
-.menu a{
-    padding-right:150px;
 }

@@ -73,12 +73,14 @@ table+h1 {
     margin-top: 5%;
 }
 
-.menu {
-    margin-top: 3%;
-}
-.menu a{
-    padding-right:150px;
-}
+.menu{
+    margin-left: -50px;
+    margin-top: 3.5%;
+    
+    }
+    .menu a{
+        padding-right:100px;
+    }
 a {
     font-family: 'Bevan', serif;
     font-size: 20px;

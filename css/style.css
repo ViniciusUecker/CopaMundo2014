@@ -11,19 +11,18 @@ body {
     background-size: 58%; /* Defina o tamanho desejado aqui */
 }
 .menu{
-margin-left: 35%;
+margin-left: 37%;
 margin-top: 3%;
 
 }
 .menu a{
-    padding-right: 10%;
+    padding-right: 5%;
 }
 a{
     font-family: 'Bevan', serif;    
     font-size: 20px;
    color: #4169E1;
     text-decoration: none;/*tirar o sublinhado do link*/
-padding-right: 5%; 
 }
 a:hover{
 color: red;
@@ -37,14 +36,14 @@ a:active{
     }
     #mata-mata{
         margin-top: 3.5%;
-        margin-left:16.7%;
+        margin-left:11.5%;
     }
 div +a{
     color: red;
 display: flex;
 justify-content: center;
 margin-top: 33%;
-margin-left:5%;
+margin-left:-5%;
 }
 div +a:hover{
     color: blue;
