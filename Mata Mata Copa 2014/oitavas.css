@@ -111,6 +111,7 @@ a:active {
 .oitavas a {
     font-size: 18px;
     color:#8de000;
+    margin-right:40px;
 }
 .oitavas a:hover{
     color:red;
